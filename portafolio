@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anthony Leones| Portafolio Personal</title>
+    <link rel="icon" href="Sin título.jpg" type="icono"
+
+</head>
+<body>
+    <header>
+        <h1>Anthony Jordan Leones Franco</h1>
+        <p>Estudiante de la universitario de Sistemas de Informacion</p><br>
+        <img src="avatar.jpg" alt="avatar de Anthony Leones" width="210">
+
+
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#sobremi ">Sobre mi </a></li>
+            <li><a href="#intereses">Intereses </a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+        </ul>
+    </nav>
+    <section id="sobremi">
+        <h2>Sobre mi</h2>
+        <p>  
+            Hola, mi nombre es <strong>Anthony Jordan Leones Franco</strong>,tengo<strong>22</strong> y vivo en la cuidad de <strong>Babahoyo</strong>.
+            Actualidad estudio la carrera de <em><strong>Sistema de Informacion</strong></em> en la <strong><mark>Universidad Tecnicas de Babahoyo</mark></strong>
+            Me interesa todo lo que tenga que ver con la programacion y mi meta es graduarme y poder trabajar en una <em><strong>empresa del area tecnologico</strong>
+            En mi tiempo libre disfruto de ver del <strong>Futbol y UFC</strong> y jugar toda clase de <strong>deportes</strong>. 
+
+        </p>
+     
+    </section>
+    <section id="intereses">
+        <h2>Mis interese </h2>
+        <ul>
+            <li>Aprender sobre <strong>programcion </strong> </li>
+            <li>Culminar mis estudios universitarios</li>
+            <li>Seguir asistencias al gimnasio</li>
+
+
+        </ul>
+    </section>
+    <section id="habilidades">
+        <h2>Habilidades</h2>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Habilidades</th>
+                    <th>Nivel</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>HTML</td>
+                    <td>Basico</td>
+                </tr>
+                <tr>
+                    <td>CSS</td>
+                    <td>Muy bajo</td>
+                </tr>
+                <tr>
+                    <td>Office</td>
+                    <td>Medio</td>
+                </tr>
+                <tr>
+                    <td>Java</td>
+                    <td>Bajo</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <h2>Formulario</h2>
+    <form>
+        <table border="1">
+            <tbody>
+                <tr>
+                    <td><label for="nombre">Nombres completos:</label></td>
+                    <td><input type="text" id="nombre" name="nombre" required></td>
+
+                </tr>
+                <tr>
+                    <td><label for="correo">Correo eletronico:</label></td>
+                    <td><input type="email" id="correo" name="correo" required></td>
+
+                </tr>
+                <tr>
+                    <td><label for="edad">Edad:</label></td>
+                    <td><input type="number" id="edad" name="edad" min="1" max="100" required></td>
+
+                </tr>
+                <tr>
+                    <td><label>Genero</label></td>
+                    <td>
+                        <input type="radio" id="masculino" name="genero" value="masculino" required>
+                        <label for="masculino">Masculino</label><br>
+                        <input type="radio" id="femenino" name="genero" value="femenino">
+                        <label for="femenino">Femenino</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="comentarios">Comentarios</label></td>
+                    <td><textarea id="comentarios" name="comentarios" rows="4" cols="40"></textarea></td>
+
+                </tr>
+            </tbody>
+        </table>
+        <input type="submit" value="enviar">
+    </form>
+    <footer>
+        <p>© 2025 Anthony Leones.</p>
+    </footer>
+    
+
+</body>
+</html>
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	]
+}
